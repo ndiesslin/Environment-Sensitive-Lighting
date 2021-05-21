@@ -27,6 +27,7 @@ The purpose of this repository is to demo the making of a SmartThings SmartApp. 
 - Get an API key from your [OpenWeather](https://home.openweathermap.org/api_keys) account.
 - Copy the .env.example file to .env in this project's root directory. You can use this command in the root directory of this project: `cp .env.example .env`. Replace `YOUR_API_KEY_HERE` with your open weather API key.
 - Run `npm install` to install the project dependencies.
+- Start the Node.js server `npm run start`.
 - Start ngrok `ngrok http 3000`. Once started, copy and save the "Forwarding" HTTPS URL. This is the URL used in the [Developer Workspace.](https://smartthings.developer.samsung.com/workspace/)
 
 #### SmartApp creation
