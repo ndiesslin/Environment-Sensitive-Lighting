@@ -6,6 +6,7 @@ Goals:
 - [x] NodeJS application hosted in local environment.
 - [x] Api calls to check weather and sunrise/sunset.
 - [x] Adjust lighting levels based on cloudiness or if we are arriving to sunset or sunrise.
+- [x] Lower light level options, for saving power.
 - [] No checking of the weather between sunset and sunrise.
 - [] Add adjustment duration between lighting change, so our lighting fades between changes.
 
@@ -70,6 +71,5 @@ More information on:
 - [Testing a SmartApp.](https://smartthings.developer.samsung.com/docs/testing/how-to-test.html)
 
 ### Deploying as a service
-- Install Vercel `npm i -g vercel`.
-- Run `vercel` to login to Vercel.
-- Once you are logged in run `vercel` again to setup your Vercel project.
+- This project can be deployed as is to [Heroku](https://www.heroku.com/)
+- Make sure you add the environment variable for the weather api key.

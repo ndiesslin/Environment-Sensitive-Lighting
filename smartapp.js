@@ -6,7 +6,8 @@ const colorTemperatures = require('./constants/color_temperatures');
 async function setSwitchLevel(context) {
   // Get weather with user's zip code
   const currentWeather = await weather.getCurrentWeather(context.configStringValue('zipCode'));
-  const brightness = weather.getBrightnessLevel(currentWeather);
+  const userMaximumBrightness = context.configStringValue('maximumBrightnessLevel');
+  const brightness = weather.getBrightnessLevel(currentWeather, userMaximumBrightness);
   // Get the user selected color temperature
   const colorTemperature = context.configStringValue('colorTemperature');
   const lightColor = colorTemperatures[colorTemperature];
@@ -58,6 +59,13 @@ module.exports = new SmartApp()
               { id: 'BLUEWHITE', name: 'blueWhiteTint' }
           ])
           .defaultValue('RED');
+        section.enumSetting('maximumBrightnessLevel')
+          .options([
+              { id: '1', name: '1:1' },
+              { id: '.5', name: '1:2' },
+              { id: '.25', name: '1:4' }
+          ])
+          .defaultValue('1');
       });
   })
   .updated(async (context, updateData) => {

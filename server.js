@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.post('/', (req, res, next) => {
-    smartApp.handleHttpCallback(req, res);
+  smartApp.handleHttpCallback(req, res);
 });
 
 app.listen(port, () => {
