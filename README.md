@@ -72,6 +72,7 @@ More information on:
 
 ## [SmartThings documentation highlights](https://smartthings.developer.samsung.com/docs/index.html)
 - [Enabling developer mode](https://smartthings.developer.samsung.com/docs/testing/developer-mode.html)
+- [SmartApps Basics](https://smartthings.developer.samsung.com/docs/smartapps/smartapp-basics.html)
 - [Registering SmartApp](https://smartthings.developer.samsung.com/docs/smartapps/app-registration.html)
 - [SmartApp samples](https://smartthings.developer.samsung.com/docs/samples.html)
 - [SmartApp tutorials](https://smartthings.developer.samsung.com/docs/tutorials/tutorials.html)
