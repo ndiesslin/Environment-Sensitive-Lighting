@@ -9,6 +9,7 @@ async function setSwitchLevel(context) {
   const userMaximumBrightness = context.configStringValue('maximumBrightnessLevel');
   const brightness = weather.getBrightnessLevel(currentWeather, userMaximumBrightness);
   // Get the user selected color temperature
+  console.log(brightness);
   const colorTemperature = context.configStringValue('colorTemperature');
   const lightColor = colorTemperatures[colorTemperature];
   await context.api.devices.sendCommands(context.config.colorLight, [
