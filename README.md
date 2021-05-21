@@ -16,7 +16,7 @@ The purpose of this repository is to demo the making of a SmartThings SmartApp. 
 - A [Samsung account](https://account.samsung.com/membership/index.do)
 - The SmartThings mobile application, [Android](https://play.google.com/store/apps/details?id=com.samsung.android.oneconnect&hl=en_US&gl=US) or [iOS](https://apps.apple.com/us/app/smartthings/id1222822904).
 - A SmartThings [Developer Workspace](https://smartthings.developer.samsung.com/workspace/) account. You can use your Samsung account login for the Developer Workspace.
-- A [Vercel](https://vercel.com/signup) account if you want to host your project.
+- A [Heroku](https://www.heroku.com/) account if you want to host this project.
 - [Node.js](https://nodejs.org) installed.
 - [npm](https://npmjs.com) installed.
 - [ngrok](https://ngrok.com/) installed. Ngrok will create a secure tunnel to the local node server.
