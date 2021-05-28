@@ -31,7 +31,7 @@ async function setSwitchLevel(context) {
 
 /* Define the SmartApp */
 module.exports = new SmartApp()
-  .configureI18n()
+  .configureI18n({updateFiles: true}) // Enable translations and update translation file when new items are added.
   .enableEventLogging(2) // logs all lifecycle event requests and responses as pretty-printed JSON. Omit in production
   .page('mainPage', (context, page, configData) => {
       page.section('currentWeather', section => {

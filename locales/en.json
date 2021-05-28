@@ -1,6 +1,6 @@
 {
   "pages.mainPage.name": "Current Weather",
-  "pages.mainPage.section.currentWeather.name": "Add your zip code and how often to check the weather in your area.",
+  "pages.mainPage.sections.currentWeather.name": "Add your zip code and how often to check the weather in your area.",
   "pages.mainPage.settings.zipCode.name": "Zip Code",
   "Tap to set": "Tap to set",
   "pages.mainPage.settings.weatherCheckDuration.name": "How often do you want to check the weather?",
@@ -8,7 +8,7 @@
   "pages.mainPage.settings.weatherCheckDuration.options.30 Minutes.name": "30 Minutes",
   "pages.mainPage.settings.weatherCheckDuration.options.45 Minutes.name": "45 Minutes",
   "pages.mainPage.settings.weatherCheckDuration.options.60 Minutes.name": "60 Minutes",
-  "pages.mainPage.sections.lights.name": "Chose which light to control.",
+  "pages.mainPage.sections.lights.name": "Choose which light to control.",
   "pages.mainPage.settings.colorLight.name": "Select your light",
   "pages.mainPage.settings.colorTemperature.name": "Select your light tone",
   "pages.mainPage.settings.colorTemperature.options.redTint.name": "Soft White (red tint)",
